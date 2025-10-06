@@ -6,11 +6,6 @@
     "smallImageText": "Cobblemon Brasil",
     "smallImageKey": "seal-circle"
   },
-  "modpack": {
-    "provider": "modrinth",
-    "projectSlug": "brasil-cobblemon",
-    "versionChannel": "release"
-  },
   "servers": [
     {
       "id": "CobblemonBrasil-1.21.1",
@@ -25,18 +20,17 @@
       "javaOptions": {
         "supported": "21",
         "suggestedMajor": 21,
-        "platformOptions": [
-          {
-            "platform": "darwin",
-            "architecture": "x64",
-            "distribution": "CORRETTO"
-          }
-        ],
-        "ram": {
-          "recommended": 3072,
-          "minimum": 2048
+        "ram": { "recommended": 3072, "minimum": 2048 }
+      },
+      "modules": [
+        {
+          "id": "modrinth:brasil-cobblemon",
+          "name": "Cobblemon Modpack",
+          "type": "Modpack",
+          "provider": "modrinth",
+          "channel": "release"
         }
-      }
+      ]
     }
   ]
 }
