@@ -8,8 +8,8 @@
   },
   "servers": [
     {
-      "id": "PixelmonOficialTeste-1.21.1",
-      "name": "Pixelmon Oficial",
+      "id": "CbTeste-1.21.1",
+      "name": "CB Oficial",
       "description": "Servidor oficial Cobblemon 1.21.1",
       "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
       "version": "1.0.1",
@@ -24,7 +24,7 @@
       },
       "modules": [
         {
-          "id": "modrinth:the-pixelmon-modpack",
+          "id": "modrinth:brasil-cobblemon",
           "name": "Cobblemon Brasil",
           "type": "Modpack",
           "provider": "modrinth",
