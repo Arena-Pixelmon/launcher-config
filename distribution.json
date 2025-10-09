@@ -24,7 +24,7 @@
       },
       "modules": [
         {
-          "id": "modrinth:arena-teste",
+          "id": "modrinth:arenapixelmon",
           "name": "Cobblemon Brasil",
           "type": "Modpack",
           "provider": "modrinth",
