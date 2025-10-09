@@ -3,18 +3,18 @@
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "1325792848544796672",
-    "smallImageText": "Cobblemon Brasil",
+    "smallImageText": "Arena Pixelmon",
     "smallImageKey": "seal-circle"
   },
   "servers": [
     {
-      "id": "CobblemonBrasil-1.21.1",
-      "name": "Cobblemon Brasil",
-      "description": "Servidor oficial Cobblemon 1.21.1",
+      "id": "ArenaPixelmon-1.21.1",
+      "name": "Arena Pixelmon",
+      "description": "Servidor oficial Pixelmon 1.16.5",
       "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
       "version": "1.0.1",
       "address": "jogar.cobblemonbrasil.org",
-      "minecraftVersion": "1.21.1",
+      "minecraftVersion": "1.16.5",
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
@@ -24,8 +24,8 @@
       },
       "modules": [
         {
-          "id": "modrinth:brasil-cobblemon",
-          "name": "Cobblemon Modpack",
+          "id": "modrinth:arenapixelmon",
+          "name": "Arena Pixelmon",
           "type": "Modpack",
           "provider": "modrinth",
           "channel": "release",
