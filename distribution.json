@@ -28,7 +28,14 @@
           "name": "Cobblemon Modpack",
           "type": "Modpack",
           "provider": "modrinth",
-          "channel": "release"
+          "channel": "release",
+          "keep": [
+            "/config/",
+            "/journeymap/",
+            "/options.txt",
+            "/logs/",
+            "/saves/"
+          ]
         }
       ]
     }
