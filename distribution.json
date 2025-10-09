@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "CbTeste-1.21.1",
+      "id": "ArenaTestes-1.21.1",
       "name": "CB Oficial",
       "description": "Servidor oficial Cobblemon 1.21.1",
       "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
@@ -24,7 +24,7 @@
       },
       "modules": [
         {
-          "id": "modrinth:brasil-cobblemon",
+          "id": "modrinth:arena-teste",
           "name": "Cobblemon Brasil",
           "type": "Modpack",
           "provider": "modrinth",
