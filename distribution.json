@@ -8,18 +8,18 @@
   },
   "servers": [
     {
-      "id": "ArenaTestes-1.21.1",
-      "name": "CB Oficial",
+      "id": "Teste123",
+      "name": "Teste 123",
       "description": "Servidor oficial Cobblemon 1.21.1",
       "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
       "version": "1.0.1",
       "address": "jogar.cobblemonbrasil.org",
-      "minecraftVersion": "1.21.1",
+      "minecraftVersion": "1.16.5",
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
-        "supported": "21",
-        "suggestedMajor": 21,
+        "supported": "11",
+        "suggestedMajor": 11,
         "ram": { "recommended": 3072, "minimum": 2048 }
       },
       "modules": [
