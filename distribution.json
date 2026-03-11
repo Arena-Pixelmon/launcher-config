@@ -29,6 +29,7 @@
           "type": "Modpack",
           "provider": "modrinth",
           "channel": "release",
+          "name_contains": "[PC]",
           "keep": [
             "/config/",
             "/journeymap/",
