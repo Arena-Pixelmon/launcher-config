@@ -8,6 +8,39 @@
   },
   "servers": [
     {
+      "id": "Cobblemon Brasil (Mobile)",
+      "name": "1.21.1",
+      "description": "Versão Lite (Mobile)",
+      "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
+      "version": "1.0.1",
+      "address": "jogar.cobblemonbrasil.org",
+      "minecraftVersion": "1.21.1",
+      "mainServer": false,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "21",
+        "suggestedMajor": 21,
+        "ram": { "recommended": 3072, "minimum": 2048 }
+      },
+      "modules": [
+        {
+          "id": "modrinth:brasil-cobblemon-mobile",
+          "name": "Cobblemon Brasil",
+          "type": "Modpack",
+          "provider": "modrinth",
+          "channel": "release",
+          "name_contains": "[Mobile]",
+          "keep": [
+            "/config/",
+            "/journeymap/",
+            "/options.txt",
+            "/logs/",
+            "/saves/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Cobblemon Brasil (PC)",
       "name": "1.21.1",
       "description": "Versão normal",
