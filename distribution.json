@@ -8,9 +8,9 @@
   },
   "servers": [
     {
-      "id": "Teste123",
-      "name": "Teste 123",
-      "description": "Servidor Cobblemon 1.21.1",
+      "id": "Cobblemon Brasil (PC)",
+      "name": "Modpack para o PC",
+      "description": "Versão normal",
       "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
       "version": "1.0.1",
       "address": "jogar.cobblemonbrasil.org",
@@ -24,40 +24,7 @@
       },
       "modules": [
         {
-          "id": "modrinth:arenapixelmon",
-          "name": "Cobblemon Brasil",
-          "type": "Modpack",
-          "provider": "modrinth",
-          "channel": "release",
-          "name_contains": "[PC]",
-          "keep": [
-            "/config/",
-            "/journeymap/",
-            "/options.txt",
-            "/logs/",
-            "/saves/"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "Novoteste",
-      "name": "Versão Lite",
-      "description": "Versão Lite",
-      "icon": "https://launcher.cobblemonbrasil.org/servers/CobblemonBrasil-1.21.1/icon.png",
-      "version": "1.0.1",
-      "address": "jogar.cobblemonbrasil.org",
-      "minecraftVersion": "1.21.1",
-      "mainServer": true,
-      "autoconnect": true,
-      "javaOptions": {
-        "supported": "21",
-        "suggestedMajor": 21,
-        "ram": { "recommended": 3072, "minimum": 2048 }
-      },
-      "modules": [
-        {
-          "id": "modrinth:arenapixelmon",
+          "id": "modrinth:brasil-cobblemon",
           "name": "Cobblemon Brasil",
           "type": "Modpack",
           "provider": "modrinth",
